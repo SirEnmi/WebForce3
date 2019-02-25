@@ -1,0 +1,99 @@
+/*** balise ***/
+h1 {
+	font-family: Merienda;
+	font-weight: bold;
+	color:#FFF;
+	text-align:center;
+	margin-top:0px;
+	padding-top:50px;
+	padding-bottom:2px;
+	padding-right:5%;
+	padding-left:5%;
+	text-shadow: 2px 2px 5px black;
+}
+
+h2, h4 {
+	color: #2F4073;
+	font-family: Merienda;
+}
+
+form{
+	border: 1px solid lightgrey;
+	border-radius: 4px;
+	background-color: #F5F5F5;
+	margin-top:10%;
+	margin-bottom:2%;
+}
+
+header {
+	background-image: url("img/background.jpg");
+	height: 180px;
+}
+
+footer {
+	background-color: #061339;
+	color: #FFF;
+	text-align: right;
+	padding:5px;
+}
+
+section{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+/*** class ***/
+.titre {
+	font-family: Merienda;
+	font-weight: bold;
+	color:#FFF;
+	margin-bottom:15px;
+	margin-top:15px;
+	padding-left:20%;
+}
+
+.btn{
+	margin: 5%;
+	margin-top:0%;
+	width:90%;
+}
+
+.form-group{
+	padding: 5%;
+	padding-bottom: 0%;
+	padding-top: 5%;
+}
+
+.navbar{
+	border:0px;
+	border-radius:0px;
+	margin-bottom:0px;
+}
+
+.navbar-default {
+	background-color:#061339;
+}
+
+/*** id ***/
+#teteChat{
+	width:100%;
+	background-color:#7885A5;
+}
+
+#valider{
+	display:none;
+	margin-bottom:2%;
+	font-weight:bold;
+}
+
+/*** media query ***/
+@media (max-width: 991px) {
+	.titre {
+		padding-left:2%;
+	}
+	
+	form {
+		margin-top:2%;
+	}
+	
+}

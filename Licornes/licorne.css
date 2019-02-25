@@ -1,0 +1,115 @@
+body {
+   background-image: url("background.png") !important;
+}
+
+h1 {
+	color:#C55394;
+	font-weight:bold;
+}
+
+h2 {
+	color:#EB43A3;
+	text-align:left;
+	padding:20px;
+	padding-bottom:0px;
+}
+
+h3 {
+	color:#EB43A3;
+	text-align:left;
+}
+
+p {
+	text-align:left;
+	padding:20px;
+	padding-top:0px;
+}
+
+
+
+.title1 {
+	font-family: 'Courgette', cursive;
+}
+
+.menu{
+	color: #FFF;
+	background-color: #C55394;
+}
+
+.btn {
+	background-color: #C55394;
+	font-family: Arial, sans-serif;
+	padding-left:5px;
+	padding-right:5px;
+	float:right;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.w3-button:hover{
+	background-color:#EB43A3 !important;
+	color: #FFF !important;
+}
+
+.default {
+	font-family: Arial, sans-serif;
+}
+
+.rainbow {
+	background-image: url("rainbow.png") !important;
+	background-repeat: no-repeat;
+	background-position:center;
+	/* Dimensions du bg */
+	width:600px;
+	height:210px;
+	margin-bottom:2px;
+	text-align:center;
+	padding-top:90px;
+	position:relative;
+	left:25%;
+	
+}
+
+/* tout ce qui suit formate les images avec banderolles */
+
+ .wrapper { /*correspond à la balise figure*/
+    position: relative;
+    /* pour positionner une balise "enfant" en mode absolue, le parent doit être en mode relatif */
+    width: 300px;
+    height: 300px;
+}
+
+.surImage { /*correspond au bandeau noir de la légende*/
+	/*positionnement de l'élément*/
+	position: absolute;
+    bottom: 0;
+    /*couleur d'arrière plan + texte*/
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    /*dimensions du bandeau noir*/
+    width: 100%;
+    height: 50px;
+    /*centrage vertical du texte*/
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.w3-left {
+		margin:2px !important;
+}
+            
+figure {
+    /* pour ne pas que l'image déborde pendant le zoom */
+    overflow: hidden;
+}
+            
+figure img {
+    /*la transition du zoom*/
+    transition: all 1s ease;
+}
+            
+figure img:hover {
+	/*transformation qui gère le zoom*/
+	transform: scale(1.25);
+}

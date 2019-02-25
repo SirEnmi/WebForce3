@@ -1,0 +1,28 @@
+footer {
+	background-color: lightgrey;
+	padding: 0px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+}
+.container{
+	margin-bottom: 50px; 
+}
+
+.logo {
+	width : 150px;
+}
+
+h1 {
+	margin-top : 2%;
+}
+
+.btn {
+	margin-left : 5px;
+}
+
+.row {
+	margin-bottom: 50px;
+}

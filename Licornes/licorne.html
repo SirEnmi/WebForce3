@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTML xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang:"fr">
+	<HEAD>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Lien pour le font awesome -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		
+		<!-- Lien pour la font Courgette -->
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		
+		<!-- Lien pour le framework W3 -->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		<!-- Lien vers la feuille de style -->
+		<link rel="stylesheet" href="licorne.css">
+		
+		<title>Un jour, une licorne</title>
+	</HEAD>
+	<BODY>
+		<!-- Nav bar horizontal/header -->
+		<header class="w3-bar menu">
+			<span class="w3-bar-item title1">MyUnicorn</span>
+			<a href="#Contact" class="w3-bar-item w3-button w3-right">NOUS RETROUVER</a>
+			<a href="#Licornes" class="w3-bar-item w3-button w3-right">NOS LICORNES</a>
+			<a href="#Principe" class="w3-bar-item w3-button w3-right">LE PRINCIPE</a>
+		</header>
+		
+		<!-- mise en page au centre -->
+		<section class="w3-display-container">
+			<div style="width:70%; position:absolute; left:15%">
+				<!-- En-tête -->
+				<div class="rainbow">
+					<h1 class="title1">Un jour, une licorne<h1>
+				</div>
+				
+				<!-- "corps" du site -->
+				<div class="w3-card-4 w3-center w3-round-xlarge w3-white" style="padding-top:20px; padding-bottom:20px;">
+					<h2 class="title1" id="Principe"><i class="far fa-star"></i> Le principe</h2>
+					<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"<p>
+					
+					<h2 class="title1" id="Licornes"><i class="far fa-star"></i> Nos licornes</h2>
+					<div class="w3-container">
+						<figure class="wrapper w3-left">
+							<figcaption class="surImage">Lulu Confetty</figcaption>
+							<img src="photo1.jpg" alt="1" />
+						</figure>
+						<figure class="wrapper w3-left">
+							<figcaption class="surImage">Lapillon Magik</figcaption>
+							<img src="photo2.jpg" alt="2" />
+						</figure>
+						<figure class="wrapper w3-left">
+							<figcaption class="surImage">El Ninjacorn</figcaption>
+							<img src="photo3.jpg" alt="3" />
+						</figure>
+						<figure class="wrapper w3-left">
+							<img src="photo4.jpg" alt="4" />
+							<figcaption class="surImage">Sweety Candy</figcaption>
+						</figure>
+					</div>
+					
+					<h2 class="title1" id="Contact"><i class="far fa-star"></i> Nous trouver</h2>
+					<div class="w3-container">
+						<div class="w3-left" style="padding:20px">
+							<!-- map -->
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1312.6056029222093!2d2.3565357921826533!3d48.854182797998945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd10fa77a9%3A0xbefa2358f9e7a776!2s18+Rue+Geoffroy+l&#39;Asnier%2C+75004+Paris!5e0!3m2!1sfr!2sfr!4v1520004022806" width="650" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+						<div class="w3-left" style="padding-top:15px;">
+							<h3 class="title1">Notre élevage de licornes est situé au :</h3>
+							<p>18 Rue Geoffroy l'Asnier<br>75004 Paris<br>01.23.45.67.89</p>
+							
+							<h3 class="title1">Newsletter</h3>
+							<p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+							<form class="w3-left" action="\newsletter.php">
+							<input type="text" name="mail">
+							<input type="submit" value="Valider" class="w3-button menu w3-round-large">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- <footer class="w3-bar w3-bottom"> -->
+			<!-- <span>2018 WebForce3</span> -->
+		<!-- </footer> -->
+	</BODY>
+</HTML>
